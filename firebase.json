@@ -1,0 +1,18 @@
+{
+  "hosting": {
+    "public": "public",
+    "site": "ozqrcodegenerator",
+    "ignore": [
+      "firebase.json",
+      "next.txt",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
