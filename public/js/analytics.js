@@ -1,19 +1,19 @@
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
+import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-analytics.js";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCkA4rLlH6tdbkPd8wdkSwhKDBv4HFsnGU",
-  authDomain: "oz-qr-code-generator.firebaseapp.com",
-  projectId: "oz-qr-code-generator",
-  storageBucket: "oz-qr-code-generator.appspot.com",
-  messagingSenderId: "17861028025",
-  appId: "1:17861028025:web:782ed9b1429e5174e4d368",
-  measurementId: "G-RG31DH6JCM"
+  apiKey: "AIzaSyBisefm8EfjBPyWcU_tpRlfNcwvESdogQY",
+  authDomain: "oz-qrcode-generator.firebaseapp.com",
+  projectId: "oz-qrcode-generator",
+  storageBucket: "oz-qrcode-generator.appspot.com",
+  messagingSenderId: "1072790908149",
+  appId: "1:1072790908149:web:a321e2f9459f24a0ade9bc",
+  measurementId: "G-VW3MWG8YCD"
 };
 
 // Initialize Firebase
