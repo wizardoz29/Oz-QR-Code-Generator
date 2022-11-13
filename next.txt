@@ -1,9 +1,0 @@
-{
-  "hosting": {
-    "site": "ozqrcodegenerator",
-    "public": "public",
-    ...
-  }
-}
-
-firebase deploy --only hosting:ozqrcodegenerator
